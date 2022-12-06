@@ -31,7 +31,7 @@ La source des données est la suivante : https://www.kaggle.com/datasets/olistbr
   - L'analyse des corrélations entre les variables quantitatives ;
   - L'analyse bivariée entre les variables quantitatives et catégorielles ;
   - L'analyse de la variance par la méthode ANOVA.
-- La réduction de dimension (PCA).
+- L'analyse en composante principale (la réduction de dimension).
 
 
 ## Les étapes des essais des différentes approches de modélisation :
@@ -41,10 +41,10 @@ La source des données est la suivante : https://www.kaggle.com/datasets/olistbr
   - Le clustering hiérarchique ;
   - Le DBSCAN ;
   - Le K-Prototypes.
-- La segmentation de l'ensemble des clients en matière de commandes et de satisfaction.
+- La segmentation de l'ensemble des clients avec le classement des bons et moins bons clients en matière de commandes et de satisfaction.
 
 
-## Les étapes de la simulation pour déterminer la fréquence nécessaire de mise à jour du modèle de segmentation :
+## Les étapes de la simulation permettant de déterminer la fréquence nécessaire de mise à jour du modèle de segmentation :
 - L'import des données et le feature engineering (sélection des variables pertinentes) ;
 - La segmentation des clients sur un mois d'une période d'un an (les 12 derniers mois) ;
-- L'analyse de la stabilité des segments par mois sur les 12 derniers mois.
+- L'analyse de la stabilité des segments par mois sur la période d'un an.
