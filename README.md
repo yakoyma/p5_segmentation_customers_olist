@@ -24,7 +24,7 @@ La source des données est la suivante : https://www.kaggle.com/datasets/olistbr
   - La Récence ;
   - La Fréquence ;
   - Le Montant des achats.
-- La prise en compte de la satisfaction des clients (le review score).
+- La prise en compte de la satisfaction des clients (review score).
 - Le feature engineering et l'exploration du jeu de données.
 - L'analyse univariée (distributions des variables, test d'adéquation des variables à une loi normale et test d'égalité des variances).
 - L'analyse multivariée :
@@ -34,17 +34,17 @@ La source des données est la suivante : https://www.kaggle.com/datasets/olistbr
 - L'analyse en composante principale (la réduction de dimension).
 
 
-## Le Machine Learning (les essais des différentes approches de modélisation) :
+## Le Machine Learning (essais des différentes approches de modélisation) :
 - L'import des données nettoyé et le feature engineering (sélection des variables pertinentes et des subsets).
 - Les tests des différents algorithmes de clustering (classification non supervisée) et sélection du modèle adapté au problème métier :
-  - Le KMeans ;
+  - Le K-Means ;
   - Le clustering hiérarchique ;
   - Le DBSCAN ;
   - Le K-Prototypes.
 - La segmentation de l'ensemble des clients avec le classement des bons et moins bons clients en matière de commandes et de satisfaction.
 
 
-## L’analyse de la stabilité des clusters (la simulation permettant de déterminer la fréquence nécessaire de mise à jour du modèle de segmentation) :
+## L’analyse de la stabilité des clusters (simulation permettant de déterminer la fréquence nécessaire de mise à jour du modèle de segmentation) :
 - L'import du jeu de données nettoyé et le feature engineering (sélection des variables pertinentes).
 - La segmentation des clients sur un mois d'une période d'un an (les 12 derniers mois).
 - L'analyse de la stabilité des segments par mois sur la période d'un an.
